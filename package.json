@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "description": "Discordoo Library for NestJS",
   "author": "bit0r1n",
-  "private": true,
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\"",
-    "lint": "eslint \"src/**/*.ts\" --fix"
+    "lint": "eslint \"src/**/*.ts\" --fix",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
