@@ -1,5 +1,5 @@
 {
-  "name": "discordoo",
+  "name": "@genai/discordoo-nest",
   "version": "0.0.1",
   "description": "Discordoo Library for NestJS",
   "author": "bit0r1n",
